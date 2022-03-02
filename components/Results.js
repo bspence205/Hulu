@@ -1,5 +1,5 @@
-import React from 'react'
-import Thumbnail from "./Thumbnail"
+import React from "react";
+import Thumbnail from "./Thumbnail";
 
 function Results({ results }) {
   return (
@@ -8,7 +8,7 @@ function Results({ results }) {
         <Thumbnail key={result.id} result={result} />
       ))}
     </div>
-  )
+  );
 }
 
 export default Results;
